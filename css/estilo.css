@@ -17,6 +17,16 @@
   --dourado: #d6bb71;
 }
 
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.7;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--preto);
+}
+
 .inicio {
   height: 100vh;
   background: linear-gradient(
@@ -50,6 +60,10 @@
 .tituloInicial {
   font-size: 50px;
   color: var(--dourado);
+}
+
+.subtituloInicial{
+  color: var(--branco);
 }
 
 .caixaTransicao {
@@ -99,7 +113,7 @@ html {
 }
 
 .video-explicativo {
-  background-color: #f8f9fa;
+  background-color: var(--branco);
 }
 
 .video-explicativo h2 {
@@ -176,7 +190,7 @@ video::-webkit-media-controls-timeline {
 
 .vantagens {
   padding: 80px 0;
-  background-color: #f8f9fa;
+  background-color: var(--branco);
 }
 
 .card-vantagem {
@@ -302,7 +316,7 @@ video::-webkit-media-controls-timeline {
 .footer-divider.full-width {
   width: 100vw;
   margin-left: calc(-50vw + 50%);
-  border-top: 3px solid var(--dourado);
+  border-top: 4px solid var(--dourado);
 }
 
 .footer-logo {
