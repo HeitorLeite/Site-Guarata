@@ -17,12 +17,6 @@
   --dourado: #d6bb71;
 }
 
-body {
-  font-family: 'Open Sans', Arial, sans-serif;
-  line-height: 1.7;
-  color: #333;
-}
-
 h1, h2, h3, h4, h5, h6 {
   color: var(--preto);
 }
@@ -189,7 +183,7 @@ video::-webkit-media-controls-timeline {
 }
 
 .vantagens {
-  padding: 80px 0;
+  padding: 10px 0;
   background-color: var(--branco);
 }
 
