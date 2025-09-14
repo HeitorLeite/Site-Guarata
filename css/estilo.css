@@ -17,10 +17,6 @@
   --dourado: #d6bb71;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: var(--preto);
-}
-
 .inicio {
   height: 100vh;
   background: linear-gradient(
@@ -39,6 +35,10 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   padding-bottom: 27vh;
   position: relative;
+}
+
+.corTitulo{
+  color: var(--preto);
 }
 
 .conteudoInicio {
@@ -71,7 +71,6 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 30px 30px 0 0;
   padding: 50px;
   text-align: center;
-  box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .btnSaibaMais {
