@@ -270,8 +270,14 @@ video::-webkit-media-controls-timeline {
   opacity: 0.8;
 }
 
-.app-buttons img {
+.android-button {
   height: 55px;
+  margin: 0 10px;
+  transition: transform 0.2s;
+}
+
+.apple-button {
+  height: 44px;
   margin: 0 10px;
   transition: transform 0.2s;
 }
